@@ -8,10 +8,6 @@
 			"Rev": "d2f9ffa1d9cf25b25191b221229effac1b6de526"
 		},
 		{
-			"ImportPath": "github.com/armon/consul-api",
-			"Rev": "1b81c8e0c4cbf1d382310e4c0dc11221632e79d1"
-		},
-		{
 			"ImportPath": "github.com/cenkalti/backoff",
 			"Rev": "6a458ae422d1a8cbfb686ac5f4789bd82956c61b"
 		},
@@ -51,11 +47,6 @@
 			"Rev": "de9783980be2a7b3ca10eb8183ea5989acbd3e7e"
 		},
 		{
-			"ImportPath": "github.com/docker/docker/pkg/units",
-			"Comment": "v1.4.1-358-gde97839",
-			"Rev": "de9783980be2a7b3ca10eb8183ea5989acbd3e7e"
-		},
-		{
 			"ImportPath": "github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar",
 			"Comment": "v1.4.1-358-gde97839",
 			"Rev": "de9783980be2a7b3ca10eb8183ea5989acbd3e7e"
@@ -63,6 +54,11 @@
 		{
 			"ImportPath": "github.com/fsouza/go-dockerclient",
 			"Rev": "bc54f3734b9b098e24680d5ad686f602bc152df4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/consul/api",
+			"Comment": "v0.4.1-523-ga85575d",
+			"Rev": "a85575dcaa0136ffbde12235d4e619745ce4cdb2"
 		}
 	]
 }

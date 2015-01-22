@@ -42,6 +42,7 @@ func (r *ConsulRegistry) registerWithCatalog(service *Service) error {
 	registration.Name = service.Name
 	registration.Port = service.Port
 	registration.Tags = service.Tags
+	registration.Address = service.IP
 	registration.Check = r.buildCheck(service)
 
 	return r.client.Agent().ServiceRegister(registration)
